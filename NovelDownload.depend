@@ -1,0 +1,248 @@
+# depslib dependency file v1.0
+1426694043 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"UrlLib.h"
+	"HtmlParser.h"
+	"RongShuXia.h"
+
+1424883292 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1424883270 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1424883270 /usr/include/stdc-predef.h
+
+1424883292 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<bits/stdio-lock.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1424883292 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1424883295 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1424883301 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1424883294 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1424883272 /usr/include/xlocale.h
+
+1424883271 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1424883297 /usr/include/getopt.h
+	<ctype.h>
+
+1424883286 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1424883290 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1424883291 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1424883294 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1426690246 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlLib.h
+	<string>
+	<curl/curl.h>
+
+1421261941 /usr/include/curl/curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1421261941 /usr/include/curl/curlver.h
+
+1421261941 /usr/include/curl/curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1424883290 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1424883290 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1421261941 /usr/include/curl/curlrules.h
+
+1424883270 /usr/include/limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1424883295 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1421261941 /usr/include/curl/easy.h
+
+1421261941 /usr/include/curl/multi.h
+	"curl.h"
+
+1421261941 /usr/include/curl/typecheck-gcc.h
+
+1426691189 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/HtmlParser.h
+	<string>
+
+1426693784 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia.h
+	<string>
+	<vector>
+
+1426692222 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/HtmlParser.cpp
+	"HtmlParser.h"
+	<htmlcxx/html/ParserDom.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+
+1392651776 /usr/include/htmlcxx/html/ParserDom.h
+	"ParserSax.h"
+	"tree.h"
+
+1392651776 /usr/include/htmlcxx/html/ParserSax.h
+	<string>
+	"Node.h"
+	"ParserSax.tcc"
+
+1392651776 /usr/include/htmlcxx/html/Node.h
+	<map>
+	<string>
+	<utility>
+
+1392651776 /usr/include/htmlcxx/html/ParserSax.tcc
+	<cctype>
+	<cstring>
+	<strings.h>
+
+1424883294 /usr/include/strings.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+
+1392651776 /usr/include/htmlcxx/html/tree.h
+	<cassert>
+	<memory>
+	<stdexcept>
+	<iterator>
+	<set>
+
+1426693877 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/RongShuXia.cpp
+	"RongShuXia.h"
+	<htmlcxx/html/ParserDom.h>
+	<htmlcxx/html/tree.h>
+	<iostream>
+
+1426691538 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/UrlLib.cpp
+	"UrlLib.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1427384981 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/Callback.cpp
+	"Callback.h"
+
+1427385065 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/Callback.h
+	<stddef.h>
+
