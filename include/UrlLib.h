@@ -4,27 +4,7 @@
 #include <string>
 #include <curl/curl.h>
 
-class DataBuffer
-{
-    public:
-        DataBuffer()
-        : buffer(0)
-        , size(0)
-        {
-
-        }
-
-        virtual ~DataBuffer()
-        {
-
-        }
-
-    public:
-        char    *buffer;
-        size_t  size;
-
-
-};
+#include <DataBuffer.h>
 
 
 class UrlLib

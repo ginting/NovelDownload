@@ -16,7 +16,7 @@ class WriteToMemoryCallback : public Callback
         size_t  getSize() const;
     protected:
     private:
-        void    *m_buffer;
+        char    *m_buffer;
         size_t  m_size;
 };
 

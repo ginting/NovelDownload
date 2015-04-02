@@ -110,9 +110,10 @@
 	<bits/string2.h>
 	<bits/string3.h>
 
-1426690246 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlLib.h
+1427986105 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlLib.h
 	<string>
 	<curl/curl.h>
+	<DataBuffer.h>
 
 1421261941 /usr/include/curl/curl.h
 	"curlver.h"
@@ -245,4 +246,21 @@
 
 1427385065 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/Callback.h
 	<stddef.h>
+
+1427985581 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/WriteToMemoryCallback.cpp
+	"WriteToMemoryCallback.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1427985560 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/WriteToMemoryCallback.h
+	<Callback.h>
+
+1427985983 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/DataBuffer.h
+	<stdio.h>
+
+1427986078 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/DataBuffer.cpp
+	"DataBuffer.h"
+	<stdlib.h>
+	<string.h>
 

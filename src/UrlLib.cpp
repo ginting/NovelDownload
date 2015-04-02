@@ -13,9 +13,6 @@ UrlLib::~UrlLib()
 {
     //dtor
     curl_easy_cleanup(m_curl);
-    if (NULL != m_data.buffer) {
-        free(m_data.buffer);
-    }
 }
 
 bool UrlLib::open()
@@ -41,8 +38,8 @@ bool UrlLib::open()
 std::string UrlLib::read()
 {
     std::string data;
-    if (NULL != m_data.buffer) {
-        data.assign(m_data.buffer, m_data.size);
+    if (NULL != m_data._buffer) {
+        data.assign(m_data._buffer, m_data._size);
     }
 
     return data;
@@ -61,16 +58,5 @@ ssize_t UrlLib::receiveData(void *ptr, size_t size, size_t nmemb, void *stream)
         return 0;
     }
 
-    size_t block_size = size * nmemb;
-    if (0 == data->size) {
-        data->buffer = (char *)malloc(sizeof(char) * (data->size + block_size));
-    }
-    else {
-        data->buffer = (char *)realloc(data->buffer, sizeof(char) * (data->size + block_size));
-    }
-
-    memcpy(data->buffer+data->size, ptr, block_size);
-    data->size += block_size;
-
-    return block_size;
+    return data->writeToBuffer(ptr, size, nmemb);
 }
