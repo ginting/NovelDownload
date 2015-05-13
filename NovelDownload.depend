@@ -1,13 +1,10 @@
 # depslib dependency file v1.0
-1426694043 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/main.cpp
-	<iostream>
-	<string>
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
+1431528459 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/main.cpp
+	<NovelPre.h>
 	"UrlLib.h"
-	"HtmlParser.h"
-	"RongShuXia.h"
+	"UrlSplit.h"
+	"RongShuXia_Chapter.h"
+	"RongShuXia_Book.h"
 
 1424883292 /usr/include/stdio.h
 	<features.h>
@@ -110,12 +107,11 @@
 	<bits/string2.h>
 	<bits/string3.h>
 
-1427986105 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlLib.h
-	<string>
-	<curl/curl.h>
+1431443589 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlLib.h
+	<NovelPre.h>
 	<DataBuffer.h>
 
-1421261941 /usr/include/curl/curl.h
+1430335081 /usr/include/curl/curl.h
 	"curlver.h"
 	"curlbuild.h"
 	"curlrules.h"
@@ -134,9 +130,9 @@
 	"multi.h"
 	"typecheck-gcc.h"
 
-1421261941 /usr/include/curl/curlver.h
+1430335081 /usr/include/curl/curlver.h
 
-1421261941 /usr/include/curl/curlbuild.h
+1430335081 /usr/include/curl/curlbuild.h
 	<windows.h>
 	<winsock2.h>
 	<ws2tcpip.h>
@@ -156,7 +152,7 @@
 	<stdint.h>
 	<stddef.h>
 
-1421261941 /usr/include/curl/curlrules.h
+1430335081 /usr/include/curl/curlrules.h
 
 1424883270 /usr/include/limits.h
 	<features.h>
@@ -176,19 +172,18 @@
 	<bits/types.h>
 	<xlocale.h>
 
-1421261941 /usr/include/curl/easy.h
+1430335081 /usr/include/curl/easy.h
 
-1421261941 /usr/include/curl/multi.h
+1430335081 /usr/include/curl/multi.h
 	"curl.h"
 
-1421261941 /usr/include/curl/typecheck-gcc.h
+1430335081 /usr/include/curl/typecheck-gcc.h
 
-1426691189 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/HtmlParser.h
-	<string>
+1431443553 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/HtmlParser.h
+	<NovelPre.h>
 
-1426693784 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia.h
-	<string>
-	<vector>
+1431443540 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia.h
+	<NovelPre.h>
 
 1426692222 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/HtmlParser.cpp
 	"HtmlParser.h"
@@ -235,7 +230,7 @@
 	<htmlcxx/html/tree.h>
 	<iostream>
 
-1426691538 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/UrlLib.cpp
+1427986171 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/UrlLib.cpp
 	"UrlLib.h"
 	<string.h>
 	<stdio.h>
@@ -263,4 +258,48 @@
 	"DataBuffer.h"
 	<stdlib.h>
 	<string.h>
+
+1431529855 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/NovelPre.h
+	<curl/curl.h>
+	<string>
+	<vector>
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+
+1431443913 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/RongShuXia_Root.cpp
+	"RongShuXia_Root.h"
+	<htmlcxx/html/ParserDom.h>
+	<htmlcxx/html/tree.h>
+
+1431443836 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia_Root.h
+	<NovelPre.h>
+
+1431529998 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia_Chapter.h
+	<NovelPre.h>
+
+1431529908 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/RongShuXia_Book.h
+	<NovelPre.h>
+
+1431530017 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/RongShuXia_Chapter.cpp
+	"RongShuXia_Chapter.h"
+	<htmlcxx/html/ParserDom.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+
+1431529933 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/RongShuXia_Book.cpp
+	"RongShuXia_Book.h"
+	<htmlcxx/html/ParserDom.h>
+	<htmlcxx/html/tree.h>
+
+1431526339 source:/home/ginting/gmtdev/workspace/codeblocks/NovelDownload/src/UrlSplit.cpp
+	"UrlSplit.h"
+
+1431524128 /home/ginting/gmtdev/workspace/codeblocks/NovelDownload/include/UrlSplit.h
+	<NovelPre.h>
 

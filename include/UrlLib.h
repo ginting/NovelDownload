@@ -1,8 +1,7 @@
 #ifndef URLLIB_H
 #define URLLIB_H
 
-#include <string>
-#include <curl/curl.h>
+#include <NovelPre.h>
 
 #include <DataBuffer.h>
 

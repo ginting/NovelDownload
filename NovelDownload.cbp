@@ -44,8 +44,11 @@
 			<Add library="/usr/lib/i386-linux-gnu/libcurl.so" />
 		</Linker>
 		<Unit filename="include/Callback.h" />
-		<Unit filename="include/HtmlParser.h" />
-		<Unit filename="include/RongShuXia.h" />
+		<Unit filename="include/DataBuffer.h" />
+		<Unit filename="include/NovelPre.h" />
+		<Unit filename="include/RongShuXia_Book.h" />
+		<Unit filename="include/RongShuXia_Chapter.h" />
+		<Unit filename="include/RongShuXia_Root.h" />
 		<Unit filename="include/UrlLib.h" />
 		<Unit filename="include/WriteToMemoryCallback.h" />
 		<Unit filename="main.cpp" />
@@ -54,8 +57,10 @@
 		<Unit filename="rapidxml-1.13/rapidxml_print.hpp" />
 		<Unit filename="rapidxml-1.13/rapidxml_utils.hpp" />
 		<Unit filename="src/Callback.cpp" />
-		<Unit filename="src/HtmlParser.cpp" />
-		<Unit filename="src/RongShuXia.cpp" />
+		<Unit filename="src/DataBuffer.cpp" />
+		<Unit filename="src/RongShuXia_Book.cpp" />
+		<Unit filename="src/RongShuXia_Chapter.cpp" />
+		<Unit filename="src/RongShuXia_Root.cpp" />
 		<Unit filename="src/UrlLib.cpp" />
 		<Unit filename="src/WriteToMemoryCallback.cpp" />
 		<Extensions>
